@@ -77,7 +77,7 @@ def testFile(pdfFile):
 
 def main():
 	if not os.path.isfile(BOOMAGAMERGER):
-		print("Error: boomagamerger not foud")
+		print("Error: boomagamerger not foud, please copy boomagamerger into this directory.")
 		sys.exit(1)
 
 	files = []
